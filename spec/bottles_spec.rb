@@ -23,7 +23,7 @@ RSpec.describe Bottles do
   end
 
   it "it puts last verse of song '99 bottles'" do
-    expect(subject.verse(1)).to eq 'No more bottles of beer on the wall, no more bottles of beer.'\
+    expect(subject.verse(0)).to eq 'No more bottles of beer on the wall, no more bottles of beer.'\
     'Go to the store and buy some more, 99 bottles of beer on the wall.'
   end
 end
